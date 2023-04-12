@@ -31,9 +31,10 @@ configurations {
 }
 
 repositories {
+    maven { url 'https://maven.aliyun.com/repository/public/' }
+    maven { url 'https://maven.aliyun.com/repository/google/'}
+    maven { url 'https://maven.aliyun.com/repository/jcenter/'}
     mavenLocal()
-    maven{url 'https://maven.aliyun.com/repository/public'}
-    // Use Maven Central for resolving dependencies.
     mavenCentral()
 }
 
