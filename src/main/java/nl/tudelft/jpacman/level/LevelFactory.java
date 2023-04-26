@@ -95,7 +95,7 @@ public class LevelFactory {
      *
      * @return The new ghost.
      */
-    Ghost createGhost() {
+    public Ghost createGhost() {
         ghostIndex++;
         ghostIndex %= GHOSTS;
         switch (ghostIndex) {
